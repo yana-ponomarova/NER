@@ -1,9 +1,9 @@
 Project: TestNER
-Author:Selsabil Gaied
+Author: Yana Ponomarova and Selsabil Gaied
 Creation Date: 12/01/2016
-Last updated: 15/01/2016 by Selsabil Gaied
+Last updated: 18/01/2016 by Yana Ponomarova
 
-Objective:Train and use a supervised NER model, given an annotated training set.
+Objective: Train and use a supervised NER model, given an annotated training set.
 
 
 Files:

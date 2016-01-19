@@ -3,8 +3,15 @@ Author: Yana Ponomarova and Selsabil Gaied
 Creation Date: 12/01/2016
 Last updated: 18/01/2016 by Yana Ponomarova
 
-Objective: Train and use a supervised NER model, given an annotated training set.
+Objective: To train a model based on the NER from Stanford NLP library to recognize the Supply Chain entities in the Oil & Gas iundustry:
+PROD - product (eg., crude oil, gas, heavy crude, diesel),
+TERM - terminal (eg., Torshamnen terminal),
+OFI - oil field (eg., Western Siberian Oil Fields),
+REF - refinery (eg., Lisichansk oil refinery),
+PIPE - pipeline (or other transportation mode) (eg., Eilat Ashkelon Crude Oil Pipeline)
+or O - other (all the rest).
 
+This model is then applied to determine the entities in the unseen text.
 
 Files:
 
@@ -37,4 +44,7 @@ Files:
     - Else, input required: args(0): classifier
                             args(1): textFile
         Ex., classifiers/CrudeSupply2.classifier.ser.gz src/main/ressources/SupplyExample.txt
-4- run.sh (to be completed)
+
+4- main.ner.NERMultiClassifier.scala: same as main.ner.NERDemo.scala, difference that it combines the result of the petro-gaz classifier with the stanford classifier.
+
+5- run.sh (to be completed)

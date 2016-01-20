@@ -44,4 +44,7 @@ Files:
     - Else, input required: args(0): classifier
                             args(1): textFile
         Ex., classifiers/CrudeSupply2.classifier.ser.gz src/main/ressources/SupplyExample.txt
-4- run.sh (to be completed)
+
+4- main.ner.NERMultiClassifier.scala: same as main.ner.NERDemo.scala, difference that it combines the result of the petro-gaz classifier with the stanford classifier.
+
+5- run.sh (to be completed)

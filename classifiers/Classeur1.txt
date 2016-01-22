@@ -1,0 +1,5 @@
+( [ {ner:LOCATION} ]* /refinery/ )	REF
+( [ {ner:LOCATION} ]* /pipeline/ )	PIPE
+( [ {pos:DT} ] [ {ner:REF} ] )	REF
+( [ {pos:DT} ] [ {ner:PIPE} ] )	PIPE
+( /this/ [ {ner:PIPE} ] )	PIPE
